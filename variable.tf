@@ -1,17 +1,17 @@
 variable "cidr_vpc_main" {
-  default = "10.10.0.0/16"
+  default = "10.11.0.0/16"
 }
 
 #variable "zone_private" {
-#  default = "eu-west-2a"
+#  default = "us-east-1"
 #}
 
 #variable "cidr_private" {
-#  default = "10.10.0.0/20"
+#  default = "10.11.0.0/24"
 #}
 
 variable "cidr_public" {
-  default = "10.11.1.0/20"
+  default = "10.11.1.0/24"
 }
 
 variable "zone_public" {
